@@ -9,28 +9,32 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Site Title</title>
-<meta name="description" content="An amazing website.">
+<!-- begin _includes/seo.html --><title>第二篇文章 - Site Title</title>
+<meta name="description" content="tag: blog-test">
 
 
   <meta name="author" content="Your Name">
   
+  <meta property="article:author" content="Your Name">
+  
 
 
-<meta property="og:type" content="website">
+<meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Site Title">
-<meta property="og:title" content="Site Title">
-<meta property="og:url" content="http://0.0.0.0:4000/">
+<meta property="og:title" content="第二篇文章">
+<meta property="og:url" content="http://0.0.0.0:4000/second-article/">
 
 
-  <meta property="og:description" content="An amazing website.">
-
-
-
+  <meta property="og:description" content="tag: blog-test">
 
 
 
+
+
+
+
+  <meta property="article:published_time" content="2021-12-28T12:00:00+00:00">
 
 
 
@@ -41,7 +45,7 @@
   
 
 
-<link rel="canonical" href="http://0.0.0.0:4000/">
+<link rel="canonical" href="http://0.0.0.0:4000/second-article/">
 
 
 
@@ -92,7 +96,7 @@
 
   </head>
 
-  <body class="layout--home">
+  <body class="layout--single">
     <nav class="skip-links">
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
@@ -246,33 +250,20 @@
 
 
 
-  <div class="archive">
-    
-      <h1 id="page-title" class="page__title"></h1>
-    
-    
-
-<h3 class="archive__subtitle">Recent posts</h3>
-
-
-
-
-<div class="entries-list">
-  
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="第二篇文章">
+    <meta itemprop="description" content="tag: blog-test">
+    <meta itemprop="datePublished" content="2021-12-28T12:00:00+00:00">
     
 
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
+    <div class="page__inner-wrap">
       
-        <a href="/second-article/" rel="permalink">第二篇文章
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="http://0.0.0.0:4000/second-article/" class="u-url" itemprop="url">第二篇文章
 </a>
-      
-    </h2>
-    
+          </h1>
+          
 
   <p class="page__meta">
     
@@ -293,18 +284,91 @@
   </p>
 
 
-    <p class="archive__item-excerpt" itemprop="description">tag: blog-test
+        </header>
+      
 
-</p>
-  </article>
-</div>
+      <section class="page__content e-content" itemprop="text">
+        
+        <h4 id="tag-blog-test">tag: <code class="language-plaintext highlighter-rouge">blog-test</code></h4>
+
+<h2 id="h2標題">h2標題</h2>
+<h3 id="h3標題">h3標題</h3>
+<p>恭喜恭喜，會發這篇表示「已經成功把 Minimal Mistakes 主題推送到 GitHub 囉」
+而這篇文章只是示範要怎麼新增文章。</p>
+
+<p>以後新增文章，就只要在 <code class="language-plaintext highlighter-rouge">_posts</code> 資料夾中新增一個文件，然後先在本機透過 <code class="language-plaintext highlighter-rouge">bundle exec jekyll serve --livereload --host 0.0.0.0 --trace</code> 檢查靜態網站是否能順利建構(到 <code class="language-plaintext highlighter-rouge">localhost:4000</code> 檢查)</p>
+
+<p>一切都沒問題的話，就把資料夾中的變動全部推送到 GitHub 即可！</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
 
   
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
     
+      <a href="/tags/#blog-test" class="page__taxonomy-item p-category" rel="tag">blog-test</a>
+    
+    </span>
+  </p>
 
 
 
-<div class="list__item">
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2021-12-28T12:00:00+00:00">December 28, 2021</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%96%87%E7%AB%A0%20http%3A%2F%2F0.0.0.0%3A4000%2Fsecond-article%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2F0.0.0.0%3A4000%2Fsecond-article%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2F0.0.0.0%3A4000%2Fsecond-article%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/test-article/" class="pagination--pager" title="這是部落格的第一篇文章
+">Previous</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h2 class="page__related-title">You may also enjoy</h2>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
@@ -341,13 +405,11 @@ tag: blog-test
   </article>
 </div>
 
+        
+      </div>
+    </div>
   
-</div>
-
-
-
-
-  </div>
+  
 </div>
     </div>
 
