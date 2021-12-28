@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2021-12-28T09:31:45+00:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">Site Title</title><subtitle>An amazing website.</subtitle><author><name>Your Name</name></author><entry><title type="html">這是部落格的第一篇文章</title><link href="http://0.0.0.0:4000/test-article/" rel="alternate" type="text/html" title="這是部落格的第一篇文章" /><published>2021-12-28T09:00:00+00:00</published><updated>2021-12-28T09:00:00+00:00</updated><id>http://0.0.0.0:4000/test-article</id><content type="html" xml:base="http://0.0.0.0:4000/test-article/">&lt;h1 id=&quot;這是部落格的第一篇文章&quot;&gt;這是部落格的第一篇文章！&lt;/h1&gt;
+&lt;h4 id=&quot;tag-blog-test&quot;&gt;tag: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;blog-test&lt;/code&gt;&lt;/h4&gt;
+
+&lt;h2 id=&quot;h2標題&quot;&gt;h2標題&lt;/h2&gt;
+&lt;h3 id=&quot;h3標題&quot;&gt;h3標題&lt;/h3&gt;
+&lt;p&gt;終於利用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll&lt;/code&gt; 將 Minimal Mistakes 主題建構起來囉！
+並且也成功的建立了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; 資料夾，把這個文章放進去。&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll&lt;/code&gt; 看到 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; 資料夾後，就會把裡面的文件轉換成文章啦！&lt;/p&gt;
+
+&lt;p&gt;等等再來試看看把 Minimal Mistakes 整個資料夾 push 到 GitHub 的部落格專案目錄會有什麼效果。&lt;/p&gt;</content><author><name>Your Name</name></author><category term="blog-test" /><summary type="html">這是部落格的第一篇文章！ tag: blog-test</summary></entry></feed>
